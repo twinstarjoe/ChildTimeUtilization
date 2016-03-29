@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add parent data" />
+        <item
+            android:id="@+id/nav_add_child"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add a Child" />
+        <item
+            android:id="@+id/nav_edit_child"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Edit a Child" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Select Child" />
+         </group>
+
+
+</menu>
